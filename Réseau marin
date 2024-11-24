@@ -27,10 +27,9 @@ digraph Graphe {
 4 -> 1 [label="30"];
 5 -> 1 [label="25"];
 6 -> 2 [label="40"];
-7 -> 2 [label="35"];
 6 -> 3 [label="35"];
+7 -> 2 [label="35"];
 7 -> 3 [label="30"];
-19 -> 3 [label="50"];
 8 -> 6 [label="50"];
 8 -> 7 [label="40"];
 9 -> 6 [label="45"];
@@ -45,11 +44,14 @@ digraph Graphe {
 16 -> 15 [label="500"];
 16 -> 13 [label="400"];
 16 -> 11 [label="300"];
-20 -> 6 [label="30"];
-20 -> 7 [label="25"];
-20 -> 4 [label="20"];
 17 -> 6 [label="40"];
 17 -> 4 [label="30"];
 17 -> 5 [label="25"];
+19 -> 3 [label="50"];
+20 -> 6 [label="30"];
+20 -> 7 [label="25"];
+20 -> 4 [label="20"];
+
 }
 // de 1 a 20 sommets qui correspondent a un animal dans le graphe
+// pour les aretes 1 sommet vers l'autre avec le poids qui correspond
