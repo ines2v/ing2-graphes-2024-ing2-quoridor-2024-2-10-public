@@ -1,6 +1,6 @@
 digraph Graphe {
     // Noeuds avec leurs propriétés (exemple : espèce et informations)
-    1 [label="Phytoplancton"];
+1 [label="Phytoplancton"];
 2 [label="Zooplancton"];
 3 [label="Krill"];
 4 [label="Crustacés"];
@@ -22,7 +22,7 @@ digraph Graphe {
 20 [label="Oiseaux marins"];
 
 // Arêtes avec poids
-    2 -> 1 [label="50"];
+2 -> 1 [label="50"];
 3 -> 1 [label="40"];
 4 -> 1 [label="30"];
 5 -> 1 [label="25"];
@@ -52,3 +52,4 @@ digraph Graphe {
 17 -> 4 [label="30"];
 17 -> 5 [label="25"];
 }
+// de 1 a 20 sommets qui correspondent a un animal dans le graphe
