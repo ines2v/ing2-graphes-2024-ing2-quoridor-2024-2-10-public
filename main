@@ -76,7 +76,7 @@ int main() {
     }
     printf("\nDistance totale : %d\n", distanceTotale);
 
-    // Liberer la memoire
+    // Liberer de la memoire
     libererGraphe(graphe);
     free(predecesseurs);
     free(distances);
